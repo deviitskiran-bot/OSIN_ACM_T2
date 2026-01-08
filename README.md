@@ -10,7 +10,7 @@ Since I wanted to know the metadata of the file rock.jpg (originally extracted f
 
 Some of the points that stood out to me in the metadata I received were:
 
-![Flag Discovery](t2.jpg)
+![Flag Discovery](t2.png)
 
 -Image Description            : (Map it Out) | Your task is to use your Open Source INTelligence skills to find the flag hidden somewhere throughout the internet | The trail of clues are laid before you. Are your skills sharp enough to uncover them all and reach your goal. | Flag format: ACM{4ll_7h3_b357}
 
@@ -44,7 +44,7 @@ Which did not lead me anywhere as the flag format wasn’t ACM{4ll_7h3_b357}.
 
 From the clue  “I love "dracula"  soo much it is soo peak”, and the clue “I hate the letter "h" soo much   I feel like it should be removed from the alphabets”. I tried to do the vignere decrypt myself where H was removed from the alphabets and I used Dracula as my key.
 
-![Flag Discovery](t22.jpg)
+![Flag Discovery](t22.png)
 (PS this is a slightly rough work)
 My logic here was to index (A-Z) without “H”, A would start at a 0 and 24 for Z. Just trying to get DTM to ACM.
 
@@ -59,7 +59,7 @@ Key: dracula
 Alphates: ABCDEFGIJKLMNOPQRSTUWXYZ
 
 I ran it on the website again with conditions again and received:
-![Flag Discovery](t222.jpg)
+![Flag Discovery](t222.png)
 
 Result
 Hence using the public information available, unveiling the metadata of the given image and connecting the clues to decrypt, the following flag was found:
